@@ -1,6 +1,6 @@
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cached-v1";
-const FILES_TO_CACHE = ["", "", "", "", "", ""];
+const FILES_TO_CACHE = ["/", "/index.html", "/index.js", "/styles.css", "/favicon.ico", "/manifest.webmanifest","/icons/icon-192x192.png","/icons/icon-512x512.png"];
 
 slef.addEventListener("install", function (evt) {
   evt.waitUntil(
