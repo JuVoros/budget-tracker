@@ -17,7 +17,7 @@ self.addEventListener("install", function (evt) {
     caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/api/transaction"))
   );
   evt.waitUntil(
-    cache.open(CACHE_NAME).then((cache) => cache.addAll(FILES_TO_CACHE))
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(FILES_TO_CACHE))
   );
 
   self.skipWaiting();
