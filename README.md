@@ -6,7 +6,7 @@
 
 ## Description
 
-An Easy way to not only track your budget but be able to track your budget offline. Quick, Easy, and Simple!
+An Easy way to not only track your budget but be able to track your budget offline. Quick, Easy, and Simple! Not only including an easy to use title function for all transactions made, it also features a neat visual overview that graphs out everything.
 
 ## Links
 
